@@ -82,10 +82,6 @@ export default function Contact() {
           <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">
             Contact Us
           </h1>
-          <p className="mx-auto max-w-2xl text-lg text-white/90">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore.
-          </p>
         </div>
       </section>
 
@@ -263,9 +259,8 @@ export default function Contact() {
                       <p className="text-muted-foreground">
                         Monday - Friday: 9:00 AM - 6:00 PM
                         <br />
-                        Saturday: 10:00 AM - 2:00 PM
+                        Saturday - Sunday: 10:00 AM - 2:00 PM
                         <br />
-                        Sunday: Closed
                       </p>
                     </div>
                   </div>

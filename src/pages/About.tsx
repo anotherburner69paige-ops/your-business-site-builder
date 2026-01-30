@@ -2,50 +2,50 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Target, Users, Lightbulb, Award, Zap } from "lucide-react";
 
 const values = [
-  {
-    icon: Heart,
-    title: "Passion",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-  },
-  {
-    icon: Target,
-    title: "Precision",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Innovation",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor.",
-  },
-  {
-    icon: Users,
-    title: "Collaboration",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat.",
-  },
+    {
+        icon: Heart,
+        title: "Passion",
+        description:
+        "We pour genuine care into every project, treating your vision as our own and delivering work that reflects true dedication.",
+    },
+    {
+        icon: Target,
+        title: "Precision",
+        description:
+        "Every detail matters. We focus on accuracy, consistency, and craftsmanship to ensure your project is executed flawlessly.",
+    },
+    {
+        icon: Lightbulb,
+        title: "Innovation",
+        description:
+        "We bring fresh ideas and creative problem‑solving to the table, helping you stand out with modern, forward‑thinking solutions.",
+    },
+    {
+        icon: Users,
+        title: "Collaboration",
+        description:
+        "Your input guides every step. We work closely with you to shape results that match your goals and exceed expectations.",
+    },
 ];
 
 const team = [
   {
     name: "Ryan Urbina",
     role: "Founder & Lead Developer",
-    image: "/placeholder.svg",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    image: "/ryan.jpg",
+    bio: "Our CEO, founder, and lead developer. A young entrepreneur based in North Carolina with 5+ years of experience in business.",
   },
   {
     name: "Jane Smith",
     role: "UI/UX Designer",
-    image: "/placeholder.svg",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
+    image: "/jane.jpg",
+    bio: "Our UI/UX designed based in California with 3+ years of experience.",
   },
   {
     name: "Mike Johnson",
     role: "Full Stack Developer",
-    image: "/placeholder.svg",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate.",
+    image: "/mike.jpg",
+    bio: "Our full-stack developer, handling all web and database related problems, based in Texas with 5+ years of experience.",
   },
 ];
 
@@ -54,19 +54,19 @@ const milestones = [
     year: "January 2025",
     title: "Company Founded",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "Our humble beginnings with only two employess working remotely.",
   },
   {
     year: "February 2025",
     title: "First Client Project",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.",
+      "Our first (foray) into development, kickstarting our commitment to quality products.",
   },
   {
     year: "Present",
     title: "Growing Strong",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.",
+      "At this time our company has learned and grown, still commited to providing quality services.",
   },
 ];
 
@@ -77,11 +77,10 @@ export default function About() {
       <section className="gradient-hero py-16 md:py-24">
         <div className="container mx-auto px-4 text-center">
           <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">
-            About Us
-          </h1>
+          About Us
+      </h1>
           <p className="mx-auto max-w-2xl text-lg text-white/90">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore.
+          We’re dedicated to delivering high‑quality, custom‑crafted solutions with a fast, reliable turnaround. Every project is shaped through collaboration, creativity, and a commitment to getting the details right.
           </p>
         </div>
       </section>
@@ -90,31 +89,32 @@ export default function About() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl">
-            <h2 className="mb-6 text-center text-3xl font-bold text-foreground md:text-4xl">
-              Our Story
-            </h2>
-            <div className="space-y-6 text-muted-foreground">
-              <p>
-                Site Forge Technologies was founded by Ryan Urbina in January
-                2025 with a simple mission: to deliver quality websites at a
-                price that business owners can afford.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </p>
+          <h2 className="mb-6 text-center text-3xl font-bold text-foreground md:text-4xl">
+          Our Story
+      </h2>
+          <div className="space-y-6 text-muted-foreground">
+          <p>
+          Site Forge Technologies was founded by Ryan Urbina in January 2025 with a
+      simple mission: to deliver quality websites at a price that business owners
+      can afford.
+          </p>
+          <p>
+          What began as a small, one‑person operation quickly grew into a dedicated
+      service built around transparency, craftsmanship, and customer‑first
+      collaboration. Ryan saw how many businesses struggled with overpriced,
+      overcomplicated web solutions, and set out to create an alternative that
+      was both accessible and genuinely helpful.
+          </p>
+          <p>
+          Today, Site Forge Technologies continues to focus on fast turnaround,
+      tailored design, and a commitment to getting every detail right. Every
+      project is shaped through open communication and a clear understanding of
+      each client’s goals, ensuring that the final product not only looks great
+      but supports real business growth.
+          </p>
+          </div>
             </div>
           </div>
-        </div>
       </section>
 
       {/* Mission Section */}
@@ -125,29 +125,24 @@ export default function About() {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary text-primary-foreground">
                 <Target className="h-6 w-6" />
               </div>
-              <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl">
-                Our Mission
-              </h2>
-              <p className="text-muted-foreground">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
+          <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl">
+          Our Mission
+      </h2>
+          <p className="text-muted-foreground">
+          Our mission is to make high‑quality, custom‑built websites accessible to every business. We focus on clarity, craftsmanship, and fast turnaround, ensuring every project supports real growth and reflects the unique goals of the people we serve.
+          </p>
+
             </div>
             <div>
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-accent text-accent-foreground">
                 <Zap className="h-6 w-6" />
               </div>
-              <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl">
-                Our Vision
-              </h2>
-              <p className="text-muted-foreground">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt.
-              </p>
+          <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl">
+          Our Vision
+      </h2>
+          <p className="text-muted-foreground">
+          We envision a future where every business—no matter its size—has access to modern, high‑quality digital tools that help it grow. By combining innovation, thoughtful design, and a commitment to fast, reliable delivery, we aim to make professional web solutions accessible, intuitive, and empowering for everyone
+      </p>
             </div>
           </div>
         </div>
@@ -157,12 +152,12 @@ export default function About() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-              Our Values
-            </h2>
-            <p className="mx-auto max-w-2xl text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
+          Our Values
+      </h2>
+          <p className="mx-auto max-w-2xl text-muted-foreground">
+          We’re guided by a commitment to quality, transparency, and customer‑focused collaboration—ensuring every project is built with care, clarity, and purpose.
+          </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {values.map((value) => (
@@ -188,12 +183,12 @@ export default function About() {
       <section className="bg-secondary py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-              Meet Our Team
-            </h2>
-            <p className="mx-auto max-w-2xl text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
+          Meet Our Team
+      </h2>
+          <p className="mx-auto max-w-2xl text-muted-foreground">
+          We’re a small, dedicated group of creators, developers, and problem‑solvers committed to building high‑quality digital experiences with care, clarity, and collaboration at the core.
+          </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {team.map((member) => (
@@ -224,12 +219,12 @@ export default function About() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-              Our Journey
-            </h2>
-            <p className="mx-auto max-w-2xl text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
+          Our Journey
+      </h2>
+          <p className="mx-auto max-w-2xl text-muted-foreground">
+          From a single idea to a growing digital studio, our journey has been shaped by a commitment to craftsmanship, collaboration, and creating accessible solutions that help businesses move forward with confidence.
+          </p>
           </div>
           <div className="mx-auto max-w-3xl">
             <div className="relative">

@@ -17,65 +17,61 @@ const services = [
   {
     icon: Globe,
     title: "Website Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Design tailored to your needs.",
   },
   {
     icon: Code,
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Ask our expert web developers with 3+ years of experience.",
   },
   {
     icon: Palette,
     title: "Brand Identity",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Helping build brand idenity since our inception.",
   },
   {
     icon: Smartphone,
     title: "Mobile-First Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Website Maintenance",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Expert mobile-first design from our digital natives.",
   },
   {
     icon: Clock,
     title: "Fast Turnaround",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Using 10x development tools, you get your webpage faster than any others.",
   },
 ];
 
 const whyChooseUs = [
-  { text: "Years of Experience", value: "5+" },
-  { text: "Projects Completed", value: "100+" },
-  { text: "Client Satisfaction", value: "100%" },
-  { text: "Support Available", value: "24/7" },
+    { text: "Minority Owned", value: "100%" },
+    { text: "Projects Completed", value: "100+" },
+    { text: "Client Satisfaction", value: "100%" },
+    { text: "Support Available", value: "24/7" },
 ];
 
 const testimonials = [
   {
-    name: "John Doe 1",
-    role: "Business Owner",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    rating: 5,
+    "name": "Elise Bauer",
+    "role": "Business Owner",
+    "content":
+      "The level of service I received was outstanding. They took the time to understand my business needs and customized everything around my goals. The turnaround was incredibly fast without sacrificing quality, and the final result fit my operations perfectly. Truly a partner who puts the customer first.",
+    "rating": 5
   },
   {
-    name: "John Doe 2",
-    role: "Entrepreneur",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    rating: 5,
+    "name": "John Stevens",
+    "role": "Entrepreneur",
+    "content":
+      "I was impressed by how quickly they delivered such polished work. Every step of the process felt collaborative — they listened, adapted, and refined until everything matched my vision. Their commitment to quality and customer‑led customization made the entire experience seamless.",
+    "rating": 5
   },
   {
-    name: "John Doe 3",
-    role: "Small Business Owner",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    rating: 5,
-  },
-];
+    "name": "Patches O'Houlihan",
+    "role": "Small Business Owner",
+    "content":
+      "Finding a service that balances speed and craftsmanship is rare, but they nailed it. They tailored the project to my exact needs and kept communication clear throughout. The quick turnaround helped me stay on schedule, and the quality exceeded what I expected. Highly reliable and customer‑focused.",
+    "rating": 5
+  }
+]
+;
 
 const featuredProjects = [
   {
@@ -106,7 +102,7 @@ export default function Index() {
               Site Forge Technologies
             </h1>
             <p className="mb-8 text-lg text-white/90 md:text-xl">
-              Your Company Tagline Here
+              Building Tomorrow’s Solutions Today
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row">
               <Button
@@ -139,9 +135,6 @@ export default function Index() {
             <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
               Our Services
             </h2>
-            <p className="mx-auto max-w-2xl text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
@@ -168,12 +161,12 @@ export default function Index() {
       <section className="bg-secondary py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-              Why Choose Us
-            </h2>
-            <p className="mx-auto max-w-2xl text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
+          Why Choose Us
+          </h2>
+          <p className="mx-auto max-w-2xl text-muted-foreground">
+          We combine high‑quality craftsmanship, customer‑driven customization, and fast, reliable turnaround to deliver results that fit your needs perfectly.
+          </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {whyChooseUs.map((item) => (
@@ -208,12 +201,12 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="mb-12 flex flex-col items-center justify-between gap-4 md:flex-row">
             <div>
-              <h2 className="mb-2 text-3xl font-bold text-foreground md:text-4xl">
-                Featured Projects
-              </h2>
-              <p className="text-muted-foreground">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
+            <h2 className="mb-2 text-3xl font-bold text-foreground md:text-4xl">
+            Featured Projects
+            </h2>
+            <p className="text-muted-foreground">
+            A look at some of the custom projects we've delivered with precision, creativity, and fast turnaround.
+            </p>
             </div>
             <Button asChild variant="outline">
               <Link to="/portfolio">
@@ -253,12 +246,12 @@ export default function Index() {
       <section className="bg-secondary py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-              What Our Clients Say
-            </h2>
-            <p className="mx-auto max-w-2xl text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
+          What Our Clients Say
+          </h2>
+           <p className="mx-auto max-w-2xl text-muted-foreground">
+          Our clients trust us for our commitment to quality, customer‑led customization, and fast, reliable turnaround on every project.
+           </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((testimonial) => (

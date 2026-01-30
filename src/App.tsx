@@ -7,29 +7,31 @@ import { Layout } from "@/components/layout/Layout";
 import Index from "./pages/Index";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
+import Privacy from "./pages/Privacy";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
+    <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+            <Toaster />
+            <Sonner />
+            <BrowserRouter>
+                <Layout>
+                    <Routes>
+                        <Route path="/" element={<Index />} />
+                        <Route path="/portfolio" element={<Portfolio />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/privacy" element={<Privacy />} />
+                        <Route path="*" element={<NotFound />} />
+                    </Routes>
+                </Layout>
+            </BrowserRouter>
+        </TooltipProvider>
+    </QueryClientProvider>
 );
 
 export default App;

@@ -99,19 +99,13 @@ export default function Index() {
     <div>
       {/* Hero Section */}
       <section className="gradient-hero relative overflow-hidden py-20 md:py-32">
-        {/* Logo background */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">
-          <img
-            src={siteforgeLogoBg}
-            alt=""
-            className="w-[600px] max-w-[80%] h-auto object-contain"
-          />
-        </div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="mx-auto max-w-3xl text-center">
-            <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-              Site Forge Technologies
-            </h1>
+          <div className="mx-auto max-w-3xl text-center flex flex-col items-center">
+            <img
+              src={siteforgeLogoBg}
+              alt="Site Forge Technologies"
+              className="w-[400px] max-w-[85%] h-auto object-contain mb-8"
+            />
             <p className="mb-8 text-lg text-white/90 md:text-xl">
               Building Tomorrow's Solutions Today
             </p>

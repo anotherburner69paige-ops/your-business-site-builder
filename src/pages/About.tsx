@@ -74,7 +74,7 @@ export default function About() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="gradient-hero py-16 md:py-24">
+      <section className="gradient-hero py-16 md:py-24 relative overflow-hidden">
         <div className="container mx-auto px-4 text-center">
           <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">
           About Us

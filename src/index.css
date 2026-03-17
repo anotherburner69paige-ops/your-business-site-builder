@@ -44,7 +44,7 @@
     /* Custom gradients */
     --gradient-primary: linear-gradient(135deg, hsl(220 80% 50%), hsl(220 80% 35%));
     --gradient-accent: linear-gradient(135deg, hsl(25 95% 55%), hsl(15 90% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 80% 50%) 0%, hsl(220 60% 25%) 100%);
+    --gradient-hero: linear-gradient(160deg, hsl(220 15% 12%) 0%, hsl(220 20% 18%) 50%, hsl(25 30% 15%) 100%);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -87,7 +87,7 @@
 
     --gradient-primary: linear-gradient(135deg, hsl(220 80% 60%), hsl(220 80% 45%));
     --gradient-accent: linear-gradient(135deg, hsl(25 95% 55%), hsl(15 90% 50%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 60% 25%) 0%, hsl(220 40% 12%) 100%);
+    --gradient-hero: linear-gradient(160deg, hsl(220 15% 10%) 0%, hsl(220 20% 15%) 50%, hsl(25 30% 12%) 100%);
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;

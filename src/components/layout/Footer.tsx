@@ -87,15 +87,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                <span>240 Wiregrass Lane</span>
+                <span>2634 Durham Chapel Hill Blvd, Ste 101, Durham, NC</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>252-284-4975</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <span>hello@siteforge.tech</span>
+                <span>ryanu@siteforgetech.org</span>
               </li>
             </ul>
           </div>

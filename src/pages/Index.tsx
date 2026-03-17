@@ -6,12 +6,12 @@ import {
   Code,
   Palette,
   Smartphone,
-  ShieldCheck,
   Clock,
   Star,
   ArrowRight,
   CheckCircle,
 } from "lucide-react";
+import siteforgeLogoBg from "@/assets/siteforge-logo.png";
 
 const services = [
   {
@@ -43,7 +43,7 @@ const services = [
 
 const whyChooseUs = [
     { text: "Minority Owned", value: "100%" },
-    { text: "Projects Completed", value: "100+" },
+    { text: "Projects Completed", value: "80+" },
     { text: "Client Satisfaction", value: "100%" },
     { text: "Support Available", value: "24/7" },
 ];
@@ -70,39 +70,50 @@ const testimonials = [
       "Finding a service that balances speed and craftsmanship is rare, but they nailed it. They tailored the project to my exact needs and kept communication clear throughout. The quick turnaround helped me stay on schedule, and the quality exceeded what I expected. Highly reliable and customer‑focused.",
     "rating": 5
   }
-]
-;
+];
 
 const featuredProjects = [
   {
-    title: "Example 1",
-    category: "E-Commerce",
+    title: "Urbina Construction",
+    category: "Website Design",
+    image: "/uc.png",
+  },
+  {
+    title: "Southern Stripes Lawn Care",
+    category: "Website Design",
     image: "/placeholder.svg",
   },
   {
-    title: "Example 2",
-    category: "Business Website",
-    image: "/placeholder.svg",
-  },
-  {
-    title: "Example 3",
-    category: "Portfolio",
+    title: "Blue Ridge Mobile Detailing",
+    category: "Website Design",
     image: "/placeholder.svg",
   },
 ];
 
 export default function Index() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div>
       {/* Hero Section */}
       <section className="gradient-hero relative overflow-hidden py-20 md:py-32">
-        <div className="container mx-auto px-4">
+        {/* Logo background */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">
+          <img
+            src={siteforgeLogoBg}
+            alt=""
+            className="w-[600px] max-w-[80%] h-auto object-contain"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
               Site Forge Technologies
             </h1>
             <p className="mb-8 text-lg text-white/90 md:text-xl">
-              Building Tomorrow’s Solutions Today
+              Building Tomorrow's Solutions Today
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row">
               <Button

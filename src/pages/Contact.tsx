@@ -46,7 +46,6 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission (Demo Mode - no actual email sent)
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     setIsSubmitting(false);
@@ -57,7 +56,6 @@ export default function Contact() {
         "Thank you for your inquiry. This is a demo - no email was actually sent.",
     });
 
-    // Reset form
     setFormData({
       name: "",
       email: "",
@@ -208,7 +206,6 @@ export default function Contact() {
 
             {/* Contact Information */}
             <div className="space-y-8">
-              {/* Business Info */}
               <Card className="border-border">
                 <CardHeader>
                   <CardTitle className="text-xl">Business Information</CardTitle>
@@ -221,9 +218,9 @@ export default function Contact() {
                     <div>
                       <h4 className="font-semibold text-foreground">Address</h4>
                       <p className="text-muted-foreground">
-                        240 Wiregrass Lane
+                        2634 Durham Chapel Hill Blvd, Ste 101
                         <br />
-                        City, State ZIP
+                        Durham, NC
                       </p>
                     </div>
                   </div>
@@ -234,7 +231,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Phone</h4>
-                      <p className="text-muted-foreground">(555) 123-4567</p>
+                      <p className="text-muted-foreground">252-284-4975</p>
                     </div>
                   </div>
 
@@ -244,7 +241,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground">hello@siteforge.tech</p>
+                      <p className="text-muted-foreground">ryanu@siteforgetech.org</p>
                     </div>
                   </div>
 
@@ -260,14 +257,12 @@ export default function Contact() {
                         Monday - Friday: 9:00 AM - 6:00 PM
                         <br />
                         Saturday - Sunday: 10:00 AM - 2:00 PM
-                        <br />
                       </p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              {/* Social Links */}
               <Card className="border-border">
                 <CardHeader>
                   <CardTitle className="text-xl">Follow Us</CardTitle>
@@ -287,18 +282,18 @@ export default function Contact() {
                 </CardContent>
               </Card>
 
-              {/* Map Placeholder */}
+              {/* Map - Mechanics and Farmers Building, Durham NC */}
               <Card className="overflow-hidden border-border">
                 <div className="aspect-video w-full">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215!2d-73.935!3d40.748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzUzLjMiTiA3M8KwNTYnMDYuMCJX!5e0!3m2!1sen!2sus!4v1234567890"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3228.5!2d-78.93!3d35.98!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace46fcd6a2e1d%3A0x0!2s2634+Durham+Chapel+Hill+Blvd%2C+Durham%2C+NC!5e0!3m2!1sen!2sus!4v1234567890"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Map showing 240 Wiregrass Lane"
+                    title="Map showing 2634 Durham Chapel Hill Blvd, Ste 101, Durham, NC"
                   />
                 </div>
               </Card>
